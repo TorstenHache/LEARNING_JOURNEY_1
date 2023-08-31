@@ -1,0 +1,20 @@
+[
+	{
+		"entity": "A_BusinessPartner",
+		"namespace": "BusinessPartnerA2X",
+		"file": "/home/user/projects/LEARNING_JOURNEY_1/srv/external/data/BusinessPartnerA2X-A_BusinessPartner.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Mitigations",
+		"namespace": "LEARNING_JOURNEY_1",
+		"file": "/home/user/projects/LEARNING_JOURNEY_1/db/data/LEARNING_JOURNEY_1-Mitigations.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "A933D368B6F7B080",
+		"namespace": "",
+		"file": "/home/user/projects/LEARNING_JOURNEY_1/db/data/A933D368B6F7B080.csv",
+		"isFixed": false
+	}
+]
