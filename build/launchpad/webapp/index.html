@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title> Project Preview </title>
+    <title> Application Overview </title>
     <script src="shared-config.js"></script>
     <script src="https://ui5.sap.com/1.108.7/resources/sap-ui-core.js" 
             id="sap-ui-bootstrap"
@@ -28,7 +28,7 @@
                     return Controller.extend("PreviewController", {
                         onInit: function () {
 
-                            const data = {"Services":[{"ServiceName":"LEARNING_JOURNEY_1Service","DetailsURL":"./service/LEARNING_JOURNEY_1/","Metadata":"./service/LEARNING_JOURNEY_1/$metadata","Entities":[{"Name":"Risks","URL":"./service/LEARNING_JOURNEY_1/Risks","FioriURL":"$fiori-preview/LEARNING_JOURNEY_1Service/Risks#preview-app"},{"Name":"Mitigations","URL":"./service/LEARNING_JOURNEY_1/Mitigations","FioriURL":"$fiori-preview/LEARNING_JOURNEY_1Service/Mitigations#preview-app"},{"Name":"A_BusinessPartner","URL":"./service/LEARNING_JOURNEY_1/A_BusinessPartner","FioriURL":"$fiori-preview/LEARNING_JOURNEY_1Service/A_BusinessPartner#preview-app"}],"EntitiesCount":3}]}
+                            const data = {"Services":[{"ServiceName":"LEARNING_JOURNEY_1Service","DetailsURL":"./service/LEARNING_JOURNEY_1/","Metadata":"./service/LEARNING_JOURNEY_1/$metadata","Entities":[{"Name":"Risks","URL":"./service/LEARNING_JOURNEY_1/Risks","FioriURL":""},{"Name":"Mitigations","URL":"./service/LEARNING_JOURNEY_1/Mitigations","FioriURL":""},{"Name":"A_BusinessPartner","URL":"./service/LEARNING_JOURNEY_1/A_BusinessPartner","FioriURL":""}],"EntitiesCount":3}]}
                             this.getView().setModel(new JSONModel(data));
                         }
                     });
